@@ -13,7 +13,7 @@ function Header() {
     <header className="container mx-auto md:flex justify-between py-2 max-width bg-orange-400 border-black border outline-black">
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
-          <h1 className=" text-xl bg-clip-text font-mono font-extrabold text-black text-transparent">MEETME</h1>
+          <h1 className=" text-xl bg-clip-text font-mono font-extrabold text-black">MEETME</h1>
         </NavLink>
 
         <div onClick={toggleClass} className="cursor-pointer">
