@@ -91,7 +91,7 @@ export const eduDetails = [
   {
     Position: "Web Developer",
     Company: "Sail Innovation Lab X CChub",
-    Location: "Online",
+    Location: "Sail Hub",
     Type: "Full Time",
     Duration: "Febuary 2023 - Present",
   },
