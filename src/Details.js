@@ -23,6 +23,8 @@ import Todo from "./assets/projects/To do.png"
 import BMI from "./assets/projects/BMI.png"
 import AgeCal from "./assets/projects/Agecal.jpg"
 import Weather from "./assets/projects/weather.png"
+import House from "./assets/projects/Classic Boulevard.jpg"
+import Huron from "./assets/projects/huronbottle.webp"
 
 
 
@@ -71,11 +73,11 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Intern",
-    Company: `General Hospital Island`,
+    Position: "Data Annotation Specialist",
+    Company: `Awarri`,
     Location: " Lagos",
-    Type: "Internship",
-    Duration: "May 2016 - September 2017",
+    Type: "Full-Time",
+    Duration: "2024 - till present ",
   },
   {
     Position: "Computer Operator",
@@ -88,12 +90,20 @@ export const workDetails = [
 
 // Enter your Education Details here
 export const eduDetails = [
+  
   {
-    Position: "Web Developer",
+    Position: "Frontend Developer",
+    Company: "Women Techsters",
+    Location: "Tech4Dev",
+    Type: "Full Time",
+    Duration: "November - January 2024",
+  },
+  {
+    Position: "Full Stack Developer",
     Company: "Sail Innovation Lab X CChub",
     Location: "Sail Hub",
     Type: "Full Time",
-    Duration: "Febuary 2023 - Present",
+    Duration: "January - September 2023",
   },
 
   {
@@ -133,12 +143,20 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Digital Clock",
-    image: Digital,
-    description: `This is a netflix landing page clone i worked on `,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://lollytech.github.io/DIGITAL-CLOCK/",
-    githubLink: "https://github.com/lollytech/DIGITAL-CLOCK",
+    title: "Huron Ecommerce Website",
+    image: Huron,
+    description: `Huron e-commerce Project`,
+    techstack: "React.js, ",
+    previewLink: "http://localhost:3000/Ecommerce-store",
+    githubLink: "https://github.com/lollytech/E-commerce-Project",
+  },
+  {
+    title: "House Agency Website",
+    image: House,
+    description: `House Dealer/Rentage `,
+    techstack: "HTML/CSS, Boostrap.css",
+    previewLink: "https://wit-project-group3.vercel.app/",
+    githubLink: "https://github.com/Presho1/WIT_project_group3",
   },
   {
     title: "Body Mass Index Calculator",
@@ -147,14 +165,6 @@ export const projectDetails = [
     techstack: "React JS, CSS",
     previewLink: "https://radiant-arithmetic-c002c4.netlify.app",
     githubLink: "https://github.com/lollytech/BMI-CAL-PROJECT"
-  },
-  {
-    title: "Age Calculator",
-    image: AgeCal,
-    description: `This is an age calculator`,
-    techstack: "HTML, Tailwind, JavaScript, React",
-    previewLink: "https://lollytech.github.io/Age-Calculator-APP/",
-    githubLink: "https://github.com/lollytech/Age-Calculator-APP",
   },
   {
     title: "Weather App",
@@ -171,6 +181,22 @@ export const projectDetails = [
     techstack: "HTML, Tailwind, JavaScript, React",
     previewLink: "https://lambent-marshmallow-f5d604.netlify.app",
     githubLink: "https://github.com/lollytech/To-do-list-APP",
+  },
+  {
+    title: "Digital Clock",
+    image: Digital,
+    description: `This is a netflix landing page clone i worked on `,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://lollytech.github.io/DIGITAL-CLOCK/",
+    githubLink: "https://github.com/lollytech/DIGITAL-CLOCK",
+  },
+  {
+    title: "Age Calculator",
+    image: AgeCal,
+    description: `This is an age calculator`,
+    techstack: "HTML, Tailwind, JavaScript, React",
+    previewLink: "https://lollytech.github.io/Age-Calculator-APP/",
+    githubLink: "https://github.com/lollytech/Age-Calculator-APP",
   },
   {
     title: "Counter App",

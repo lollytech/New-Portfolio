@@ -85,8 +85,8 @@ function Home() {
       </div>
     </main>
 
-    </main>
-  );
-}
+    
+  )
+};
 
 export default Home;
